@@ -42,12 +42,12 @@ epochs = 15
 
 train_data_generator = ImageDataGenerator(
     rescale=1./255,
-    rotation_range=45,
-    width_shift_range=.15,
-    height_shift_range=.15,
+    rotation_range=40,
+    width_shift_range=.12,
+    height_shift_range=.12,
     horizontal_flip=True,
-    zoom_range=0.5,
-    shear_range=0.15
+    zoom_range=0.2,
+    shear_range=0.12
 )
 validation_data_generator = ImageDataGenerator(
     rescale=1./255
