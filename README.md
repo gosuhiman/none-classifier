@@ -1,4 +1,9 @@
-# cat-finder
+# none-classifier
+
+CNN classifier with 3 classes:
+- cat
+- dog
+- none of the above
 
 ### Data augmentation
 
